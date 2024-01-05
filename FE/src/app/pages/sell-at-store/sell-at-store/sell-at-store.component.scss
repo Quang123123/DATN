@@ -1,0 +1,66 @@
+.all {
+  background-color: #eaeaea;
+}
+
+.divAll {
+  width: 100%;
+  height: auto;
+}
+
+.divImage {
+  width: 30%;
+  float: left;
+}
+
+.divPhai {
+  width: 70%;
+  float: right;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #FFD333;
+  border-color: #FFD333;
+}
+
+.orders {
+  background-color: white;
+}
+.giamgia{
+  text-align: right;
+}
+.name{
+  font-size: 17px;
+}
+
+a :hover {
+  color: #FFD333;
+}
+.iii :hover {
+  color: #FFD333;
+}
+
+:host ::ng-deep .mat-tab-label {
+  height: 3rem !important;
+  min-width: 8rem !important;
+}
+
+/* Styles for the active tab label */
+:host ::ng-deep .mat-tab-label.mat-tab-label-active {
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Styles for the ink bar */
+:host ::ng-deep .mat-ink-bar {
+  display: none !important;
+}
